@@ -1,0 +1,27 @@
+# Build trees (CMake presets write build/<preset-name>)
+build/
+
+# Python caches from the e2e tests, sidecar and fixture tools
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.benchmarks/
+
+# Editor / IDE state
+.vs/
+.vscode/
+.idea/
+
+# Local CMake overrides and tooling artifacts
+CMakeUserPresets.json
+compile_commands.json
+.cache/
+
+# OS noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Release archives are published as GitHub Releases; dist/ stays untracked
+# (maintainer keeps the frozen copies on disk).
+dist/

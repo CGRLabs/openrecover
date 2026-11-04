@@ -1,0 +1,248 @@
+{
+  "files": [
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "$Ibroken.txt",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Ibroken.txt",
+      "size_bytes": 74
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "$Iescaped.dll",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Iescaped.dll",
+      "size_bytes": 98
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "$Inotes.txt",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Inotes.txt",
+      "size_bytes": 94
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "medium",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "$Iphoto.jpg",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Iphoto.jpg",
+      "size_bytes": 544
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "medium",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "$Ireport.docx",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Ireport.docx",
+      "size_bytes": 94
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "$Iundated.txt",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Iundated.txt",
+      "size_bytes": 94
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [
+        {
+          "length_bytes": 2048,
+          "offset_bytes": 2580480,
+          "sparse": false
+        }
+      ],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "$Rbroken.txt",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Rbroken.txt",
+      "size_bytes": 2048
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "deleted_unix": 1704153600,
+      "extents": [
+        {
+          "length_bytes": 512,
+          "offset_bytes": 2621440,
+          "sparse": false
+        }
+      ],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "$Rescaped.dll",
+      "note": "deletion time from $Recycle.Bin metadata",
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Rescaped.dll",
+      "size_bytes": 512
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [
+        {
+          "length_bytes": 1024,
+          "offset_bytes": 2539520,
+          "sparse": false
+        }
+      ],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "$Rorphan.bin",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Rorphan.bin",
+      "size_bytes": 1024
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "deleted_unix": 1704153600,
+      "extents": [
+        {
+          "length_bytes": 4096,
+          "offset_bytes": 2498560,
+          "sparse": false
+        }
+      ],
+      "flags": [
+        "OriginalPathRestored",
+        "PathUncertain"
+      ],
+      "mtime_unix": 1704067300,
+      "name": "report.docx",
+      "note": "original path restored from $Recycle.Bin metadata; $I records 99999 bytes, recovered 4096",
+      "origin": "filesystem_metadata",
+      "path": "Users/bob/Desktop/report.docx",
+      "size_bytes": 4096
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [
+        "OriginalPathRestored"
+      ],
+      "mtime_unix": 1704067300,
+      "name": "undated.txt",
+      "note": "original path restored from $Recycle.Bin metadata",
+      "origin": "filesystem_metadata",
+      "path": "Users/bob/Desktop/undated.txt",
+      "size_bytes": 64
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "deleted_unix": 1704153600,
+      "extents": [
+        {
+          "length_bytes": 5000,
+          "offset_bytes": 2457600,
+          "sparse": false
+        }
+      ],
+      "flags": [
+        "OriginalPathRestored"
+      ],
+      "mtime_unix": 1704067300,
+      "name": "notes.txt",
+      "note": "original path restored from $Recycle.Bin metadata",
+      "origin": "filesystem_metadata",
+      "path": "Users/bob/Documents/notes.txt",
+      "size_bytes": 5000
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "deleted_unix": 1704153600,
+      "extents": [],
+      "flags": [
+        "OriginalPathRestored"
+      ],
+      "mtime_unix": 1704067300,
+      "name": "photo.jpg",
+      "note": "original path restored from $Recycle.Bin metadata",
+      "origin": "filesystem_metadata",
+      "path": "Users/bob/Pictures/2024/photo.jpg",
+      "size_bytes": 300
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "plain deleted.txt",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "plain deleted.txt",
+      "size_bytes": 120
+    }
+  ],
+  "hashes": {
+    "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Ibroken.txt": "9809dadcb6a8e615d84838098dc1aa98ef4420aaa04e9f1f5d98faffbf2df6e5",
+    "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Iescaped.dll": "7b5d3cce70a7ed0ce05b8665baa8d3434e52ffc11538fbf41e86640c2968670c",
+    "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Inotes.txt": "2e4e2abbf94dd9647d945c6c4f0139f03adc9e045ac4a9895fecfdda24cb1c73",
+    "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Iphoto.jpg": "770c2662a91f4c2465d1a2d9a856171c445da7c57506712ae52e2a49d8737a42",
+    "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Ireport.docx": "1a99eeb2f4f4f1ba517e2705ca0617df30f549d8e28e68ea234243e91d136da7",
+    "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Iundated.txt": "717c3531d836154fcea70d407ad07e3c8a99596d81616924825241b5e1ae92fa",
+    "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Rbroken.txt": "0929fffea8c5ba2f775d0e0eb721f1e5cfdf97aa35fd52d6a45e6c60a239d41f",
+    "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Rescaped.dll": "638c80ec67a835cea36939c6120d50030ca14c9ac29129d7e0f98d367a2b4164",
+    "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Rorphan.bin": "29fcaea0d9681229b0503654b2de7d358b9542277aea416a25cf3f2499ca08f5",
+    "Users/bob/Desktop/report.docx": "055171325866749bf105735ec7ac4542335abf61d6f7ad7d8e13a8fe134dad7c",
+    "Users/bob/Desktop/undated.txt": "0ef63e913b16f47d57b9c4bb3024a2a2525565ccf8e72205f1da0659ae5d6eab",
+    "Users/bob/Documents/notes.txt": "530348fe3a543039f218985c238f9069048068c079e94fc572a496bd75636091",
+    "Users/bob/Pictures/2024/photo.jpg": "e6c5e232eb64759adea880f67389aca8dbdb16d61ce13d72bc48ea8ac85fd917",
+    "plain deleted.txt": "816a42621e63ca1e705f3b8452f13c166e59febe96e28f6042ed65df4366de94"
+  },
+  "image": "ntfs_recyclebin.img",
+  "image_sha256": "84bcbceab064897f0cc6cb786639dc90228f369a00477f53b765339034fbd07c",
+  "volume_bytes": 16777216
+}

@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [
+        {
+          "length_bytes": 4096,
+          "offset_bytes": 8601600,
+          "sparse": false
+        }
+      ],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "probe-contiguous.bin",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "probe-contiguous.bin",
+      "size_bytes": 4096
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [
+        {
+          "length_bytes": 4096,
+          "offset_bytes": 8642560,
+          "sparse": false
+        },
+        {
+          "length_bytes": 4096,
+          "offset_bytes": 8650752,
+          "sparse": false
+        }
+      ],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "probe-fragmented.bin",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "probe-fragmented.bin",
+      "size_bytes": 8192
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "probe-resident.txt",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "probe-resident.txt",
+      "size_bytes": 100
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "low",
+      "ctime_unix": 1704067200,
+      "extents": [
+        {
+          "length_bytes": 4096,
+          "offset_bytes": 8683520,
+          "sparse": false
+        }
+      ],
+      "flags": [
+        "ClustersReallocated"
+      ],
+      "mtime_unix": 1704067300,
+      "name": "probe-reused.bin",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "probe-reused.bin",
+      "size_bytes": 4096
+    }
+  ],
+  "hashes": {
+    "probe-contiguous.bin": "3b4bc4672bc25bb1bd9157626aaf4d5eec5cc6355b3456926755b12e1aa75f71",
+    "probe-fragmented.bin": "0b11f4fb638cdfa4c5fc5666246c6e899ffad8aeba7e3b163e847441f5e70c48",
+    "probe-resident.txt": "612f38fce9a85187207b3dae2512bdd15d9ced36c638133de315ab62b071c5ce"
+  },
+  "image": "ntfs_fragmented_mft.img",
+  "image_sha256": "e2a1f63438b5b41cc6b4cf99ae3d4e3a33d43d97e7405e711d01053b0b22a3e9",
+  "volume_bytes": 16777216
+}

@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "name": "vendor_examples",
+  "comment": "UNVERIFIED, user-editable template. Vendor gallery/trash locations differ by manufacturer, Android version and app version; these paths are examples only and are not authoritative. Verify each root on a test device before relying on it.",
+  "roots": [
+    {"id": "samsung_gallery_trash", "path": "/sdcard/DCIM/.trashed", "kind": "trash", "recursive": true, "max_depth": 6, "optional": true},
+    {"id": "xiaomi_gallery_trash",  "path": "/sdcard/MIUI/Gallery/cloud/.trashBin", "kind": "trash", "recursive": true, "max_depth": 6, "optional": true},
+    {"id": "huawei_recycle_bin",    "path": "/sdcard/Huawei/RecycleBin", "kind": "trash", "recursive": true, "max_depth": 6, "optional": true},
+    {"id": "oppo_recycle_bin",      "path": "/sdcard/Android/data/com.coloros.gallery3d/files/.trash", "kind": "trash", "recursive": true, "max_depth": 6, "optional": true},
+    {"id": "google_photos_cache",   "path": "/sdcard/Android/data/com.google.android.apps.photos/cache", "kind": "cache", "recursive": true, "dir_regex": "(^|/)cache(/|$)", "max_depth": 6, "optional": true}
+  ],
+  "type_filter": ["jpg", "jpeg", "png", "webp", "gif", "bmp", "mp4", "pdf", "zip", "docx", "xlsx", "pptx", "txt"],
+  "max_file_size": 2147483648
+}

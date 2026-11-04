@@ -1,0 +1,191 @@
+{
+  "files": [
+    {
+      "atime_unix": 1717718400,
+      "confidence": "high",
+      "ctime_unix": 1672628646,
+      "extents": [
+        {
+          "length_bytes": 5000,
+          "offset_bytes": 79872,
+          "sparse": false
+        }
+      ],
+      "flags": [],
+      "mtime_unix": 1709618828,
+      "name": "Quarterly report 2024.txt",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc",
+      "origin": "filesystem_metadata",
+      "path": "DOCS/Quarterly report 2024.txt",
+      "size_bytes": 5000
+    },
+    {
+      "atime_unix": 1717718400,
+      "confidence": "high",
+      "ctime_unix": 1672628646,
+      "extents": [
+        {
+          "length_bytes": 1200,
+          "offset_bytes": 86016,
+          "sparse": false
+        }
+      ],
+      "flags": [],
+      "mtime_unix": 1709618828,
+      "name": "Ünïcødé résumé.pdf",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc",
+      "origin": "filesystem_metadata",
+      "path": "DOCS/Ünïcødé résumé.pdf",
+      "size_bytes": 1200
+    },
+    {
+      "atime_unix": 1717718400,
+      "confidence": "high",
+      "ctime_unix": 1672628646,
+      "extents": [
+        {
+          "length_bytes": 2048,
+          "offset_bytes": 98304,
+          "sparse": false
+        }
+      ],
+      "flags": [],
+      "mtime_unix": 1709618828,
+      "name": "inner one.bin",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc",
+      "origin": "filesystem_metadata",
+      "path": "Old Stuff/inner one.bin",
+      "size_bytes": 2048
+    },
+    {
+      "atime_unix": 1717718400,
+      "confidence": "high",
+      "ctime_unix": 1672628646,
+      "extents": [
+        {
+          "length_bytes": 700,
+          "offset_bytes": 100352,
+          "sparse": false
+        }
+      ],
+      "flags": [],
+      "mtime_unix": 1709618828,
+      "name": "inner two.bin",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc",
+      "origin": "filesystem_metadata",
+      "path": "Old Stuff/inner two.bin",
+      "size_bytes": 700
+    },
+    {
+      "atime_unix": 1717718400,
+      "confidence": "high",
+      "ctime_unix": 1672628646,
+      "extents": [
+        {
+          "length_bytes": 100,
+          "offset_bytes": 96256,
+          "sparse": false
+        }
+      ],
+      "flags": [
+        "NameFirstCharGuessed"
+      ],
+      "mtime_unix": 1709618828,
+      "name": "_ata.csv",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc",
+      "origin": "filesystem_metadata",
+      "path": "PICS/2024/_ata.csv",
+      "size_bytes": 100
+    },
+    {
+      "atime_unix": 1717718400,
+      "confidence": "high",
+      "ctime_unix": 1672628646,
+      "extents": [
+        {
+          "length_bytes": 446,
+          "offset_bytes": 88064,
+          "sparse": false
+        }
+      ],
+      "flags": [],
+      "mtime_unix": 1709618828,
+      "name": "summer holiday photo.jpg",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc",
+      "origin": "filesystem_metadata",
+      "path": "PICS/2024/summer holiday photo.jpg",
+      "size_bytes": 446
+    },
+    {
+      "atime_unix": 1717718400,
+      "confidence": "high",
+      "ctime_unix": 1672628646,
+      "extents": [
+        {
+          "length_bytes": 3000,
+          "offset_bytes": 73728,
+          "sparse": false
+        }
+      ],
+      "flags": [
+        "NameFirstCharGuessed"
+      ],
+      "mtime_unix": 1709618828,
+      "name": "_lain.txt",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc",
+      "origin": "filesystem_metadata",
+      "path": "_lain.txt",
+      "size_bytes": 3000
+    },
+    {
+      "atime_unix": 1717718400,
+      "confidence": "high",
+      "ctime_unix": 1672628646,
+      "extents": [],
+      "flags": [
+        "NameFirstCharGuessed"
+      ],
+      "mtime_unix": 1709618828,
+      "name": "_mpty.txt",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc",
+      "origin": "filesystem_metadata",
+      "path": "_mpty.txt",
+      "size_bytes": 0
+    },
+    {
+      "atime_unix": 1717718400,
+      "confidence": "high",
+      "ctime_unix": 1672628646,
+      "extents": [
+        {
+          "length_bytes": 10,
+          "offset_bytes": 77824,
+          "sparse": false
+        }
+      ],
+      "flags": [
+        "NameFirstCharGuessed"
+      ],
+      "mtime_unix": 1709618828,
+      "name": "_otes.txt",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc",
+      "origin": "filesystem_metadata",
+      "path": "_otes.txt",
+      "size_bytes": 10
+    }
+  ],
+  "hashes": {
+    "DOCS/Quarterly report 2024.txt": "8bc08579f411ef472f880ab30075f2ec7161c240d62842abac35af1e0cbda654",
+    "DOCS/Ünïcødé résumé.pdf": "14e6707a5ee137e87dc68a1ccb73cf453b961973e450f4e3eaf5f3af766b583a",
+    "Old Stuff/inner one.bin": "c0490f78af42920220544e0be126683cbd5ecd83442fbfaa2f341efc86078d3f",
+    "Old Stuff/inner two.bin": "cbed719dfebe017e7d4e3ef1c5a54d1d1935518ec0094c94348c64cf026c3653",
+    "PICS/2024/_ata.csv": "9971acb2b047e1f1f6d4b9923074a46fa6a70892bd62d304bcd30368a804467c",
+    "PICS/2024/summer holiday photo.jpg": "07c637dc412db0b3b73283bc20f4f9a7b3b98a5b48146113f78059c1835a10ed",
+    "_lain.txt": "06a4a5614ee4617664b127f3929031477f6bf93b5c04b5b25036bc775ba863b9",
+    "_mpty.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "_otes.txt": "72305a2838712a81534a32feaf72c730f1168f23c98d7b949ad909b889bcea19"
+  },
+  "image": "fat32_vhdx_full.img",
+  "image_sha256": "2af9649dc1ba82001f61d29232e87e06f24e968516a014d836899ff82c328faf",
+  "volume_bytes": 8388608
+}

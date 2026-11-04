@@ -1,0 +1,7 @@
+@PACKAGE_INIT@
+
+# Read-only deleted-file recovery library. Consumers link OpenRecover::core; the package's
+# include directory carries every public header plus <tl/expected.hpp>.
+include("${CMAKE_CURRENT_LIST_DIR}/OpenRecoverTargets.cmake")
+
+check_required_components(OpenRecover)

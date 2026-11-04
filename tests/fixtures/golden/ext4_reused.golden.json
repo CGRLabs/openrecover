@@ -1,0 +1,231 @@
+{
+  "absent": [
+    "inode-19",
+    "notes.txt",
+    "subdir/keep.dat"
+  ],
+  "deleted": [
+    {
+      "confidence": "low",
+      "deleted_unix": 1700000600,
+      "flags": [
+        "ClustersReallocated",
+        "PathUncertain"
+      ],
+      "inode": 17,
+      "mtime_unix": 1700000420,
+      "name": "inode-17",
+      "note_contains": [
+        "ambiguous_name_at_deletion_time",
+        "data_blocks_reused_or_outside_volume"
+      ],
+      "path": "inode-17",
+      "sha256": "aee1ea9541accd231c27b5680a91487e1707ffaa9778832823a7998a0fadfa14",
+      "size_bytes": 1024
+    },
+    {
+      "confidence": "low",
+      "deleted_unix": 1700000600,
+      "flags": [
+        "ClustersReallocated",
+        "PathUncertain"
+      ],
+      "inode": 18,
+      "mtime_unix": 1700000420,
+      "name": "inode-18",
+      "note_contains": [
+        "ambiguous_name_at_deletion_time",
+        "data_blocks_reused_or_outside_volume"
+      ],
+      "path": "inode-18",
+      "sha256": "240ae70a9fcd87318ebe1c9c84a6fd81d1e0e64f762e9844e1f3f2eadab7e462",
+      "size_bytes": 1024
+    },
+    {
+      "confidence": "low",
+      "deleted_unix": 1700000700,
+      "flags": [
+        "ClustersReallocated",
+        "PathUncertain"
+      ],
+      "inode": 20,
+      "mtime_unix": 1700000440,
+      "name": "inode-20",
+      "note_contains": [
+        "data_blocks_reused_or_outside_volume",
+        "no_deleted_entry_with_this_timestamp"
+      ],
+      "path": "inode-20",
+      "sha256": "dc9cd49efd2b739121588a1dd12804ee586e60043ba105e925bb860d1ab4991d",
+      "size_bytes": 2048
+    },
+    {
+      "confidence": "high",
+      "deleted_unix": 1700000750,
+      "flags": [
+        "PathUncertain"
+      ],
+      "inode": 21,
+      "mtime_unix": 1700000450,
+      "name": "inode-21",
+      "note_contains": [
+        "no_deleted_entry_with_this_timestamp"
+      ],
+      "path": "inode-21",
+      "sha256": "555ff62ea02ac3f37406008f1fefd19141151d32fb437613169eadafb845fdf2",
+      "size_bytes": 23
+    },
+    {
+      "confidence": "low",
+      "deleted_unix": 1700000800,
+      "flags": [
+        "ClustersReallocated",
+        "PathUncertain"
+      ],
+      "inode": 22,
+      "mtime_unix": 1700000460,
+      "name": "inode-22",
+      "note_contains": [
+        "data_blocks_reused_or_outside_volume",
+        "no_deleted_entry_with_this_timestamp"
+      ],
+      "path": "inode-22",
+      "sha256": "fcd7d33f506e6b6515654fe9d2c33b285ca8b386f0cd39ef8c516724ac9bbda5",
+      "size_bytes": 8192
+    },
+    {
+      "confidence": "low",
+      "deleted_unix": 1700000850,
+      "flags": [
+        "ClustersReallocated",
+        "PathUncertain"
+      ],
+      "inode": 23,
+      "mtime_unix": 1700000470,
+      "name": "inode-23",
+      "note_contains": [
+        "data_blocks_reused_or_outside_volume",
+        "no_deleted_entry_with_this_timestamp"
+      ],
+      "path": "inode-23",
+      "sha256": "7f3abdb6fb69b9047ffffdfb4d2e0e2c82e4952eae18474fbdef070ebd66071e",
+      "size_bytes": 16384
+    },
+    {
+      "confidence": "low",
+      "deleted_unix": 1700000900,
+      "flags": [
+        "ClustersReallocated",
+        "PathUncertain"
+      ],
+      "inode": 24,
+      "mtime_unix": 1700000480,
+      "name": "inode-24",
+      "note_contains": [
+        "data_blocks_reused_or_outside_volume",
+        "inode_checksum_mismatch",
+        "no_deleted_entry_with_this_timestamp"
+      ],
+      "path": "inode-24",
+      "sha256": "fa45708b85a6ff6f6f55f0f7c5c5214c4a0b5c25e2a599e338f49bcb827b2655",
+      "size_bytes": 1024
+    },
+    {
+      "confidence": "high",
+      "deleted_unix": 1700000950,
+      "flags": [
+        "PathUncertain",
+        "Unsupported"
+      ],
+      "inode": 25,
+      "mtime_unix": 1700000490,
+      "name": "inode-25",
+      "note_contains": [
+        "encrypted_content",
+        "no_deleted_entry_with_this_timestamp"
+      ],
+      "path": "inode-25",
+      "sha256": null,
+      "size_bytes": 1024
+    },
+    {
+      "confidence": "high",
+      "deleted_unix": 1700001000,
+      "flags": [
+        "PathUncertain"
+      ],
+      "inode": 26,
+      "mtime_unix": 1700000495,
+      "name": "inode-26",
+      "note_contains": [
+        "contains_holes_or_unwritten_extents",
+        "no_deleted_entry_with_this_timestamp"
+      ],
+      "path": "inode-26",
+      "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+      "size_bytes": 2048
+    },
+    {
+      "confidence": "low",
+      "deleted_unix": 1700000500,
+      "flags": [
+        "ClustersReallocated"
+      ],
+      "inode": 14,
+      "mtime_unix": 1700000400,
+      "name": "secret.txt",
+      "note_contains": [
+        "data_blocks_reused_or_outside_volume"
+      ],
+      "path": "secret.txt",
+      "sha256": "0aef93a6e2931b091979c25b29e662ea881388b77a384d0502e9af0ac4c64f10",
+      "size_bytes": 1500
+    },
+    {
+      "confidence": "low",
+      "deleted_unix": 1700000550,
+      "flags": [
+        "ClustersReallocated"
+      ],
+      "inode": 16,
+      "mtime_unix": 1700000410,
+      "name": "photo.jpg",
+      "note_contains": [
+        "data_blocks_reused_or_outside_volume"
+      ],
+      "path": "subdir/photo.jpg",
+      "sha256": "10d6cc6cc28e709a4867f40c05cb9b2e67f4c16fcdcf0ad73ee2499e8edad16a",
+      "size_bytes": 2500
+    }
+  ],
+  "geometry": {
+    "block_size": 1024,
+    "blocks_count": 256,
+    "blocks_per_group": 128,
+    "checksum_seed_from_uuid": true,
+    "desc_size": 32,
+    "first_data_block": 0,
+    "groups": 2,
+    "inode_size": 256,
+    "inodes_count": 32,
+    "inodes_per_group": 16,
+    "metadata_csum": true
+  },
+  "image": "ext4_reused.img",
+  "image_sha256": "5c907dc5b45f38edd2e95d7f4846b8bcda0b4bf484883f3ffffe3af7b2c43eae",
+  "live": [
+    {
+      "offset_bytes": 20480,
+      "path": "notes.txt",
+      "sha256": "fd862eccad786da2759c32428a7d9584f922f8f4bd895e02181d2658c0218185",
+      "size_bytes": 1500
+    },
+    {
+      "offset_bytes": 26624,
+      "path": "subdir/keep.dat",
+      "sha256": "ea6524bb16899da64efd7d8823367ebc3803447b452fd18b4b3861b8e7d79595",
+      "size_bytes": 600
+    }
+  ],
+  "volume_bytes": 262144
+}

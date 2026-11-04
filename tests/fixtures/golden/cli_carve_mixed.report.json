@@ -1,0 +1,135 @@
+{
+  "tool": "openrecover",
+  "version": "1.4.0",
+  "source": {
+    "description": "carve_mixed.img",
+    "container": "",
+    "size_bytes": 16777216,
+    "sector_size": 512,
+    "shared_write_fallback": false,
+    "bad_sectors": []
+  },
+  "partitions": [],
+  "files": [],
+  "carved": [
+    {
+      "offset": 65536,
+      "length": 446,
+      "type": "jpeg",
+      "subtype": "jfif",
+      "confidence": "high",
+      "sha256": "07c637dc412db0b3b73283bc20f4f9a7b3b98a5b48146113f78059c1835a10ed",
+      "exported_to": "carved/jpeg/0000000000010000_446.jpg"
+    },
+    {
+      "offset": 131072,
+      "length": 70,
+      "type": "png",
+      "subtype": "",
+      "confidence": "medium",
+      "sha256": "9053a1a4ac8c52481e69d24ce41f8f4a6dd051408c6a5d06ee022a738fb732e8",
+      "exported_to": "carved/png/0000000000020000_70.png"
+    },
+    {
+      "offset": 196608,
+      "length": 335,
+      "type": "pdf",
+      "subtype": "pdf-1.7",
+      "confidence": "high",
+      "sha256": "25f02f1056c027c58f73804db4b9d95cce80a88c59b9db9eb1b4ba2781cea2db",
+      "exported_to": "carved/pdf/0000000000030000_335.pdf"
+    },
+    {
+      "offset": 262144,
+      "length": 1628,
+      "type": "zip",
+      "subtype": "zip",
+      "confidence": "high",
+      "sha256": "7077473a47f6b1ce2c8a43676814cc68341f8d820b361eca18f5c2983dabb143",
+      "exported_to": "carved/zip/0000000000040000_1628.zip"
+    },
+    {
+      "offset": 327680,
+      "length": 470,
+      "type": "jpeg",
+      "subtype": "exif",
+      "confidence": "high",
+      "sha256": "f99d3ba2aee45f8f96fb5f7c8becb784c44d994f89097ff9182758975f29e4cf",
+      "exported_to": "carved/jpeg/0000000000050000_470.jpg"
+    },
+    {
+      "offset": 393216,
+      "length": 89,
+      "type": "png",
+      "subtype": "",
+      "confidence": "medium",
+      "sha256": "9d578c6d0095b1f77f15bdffae9582162ecd019aeb841cfb9ac1ad047589bc1b",
+      "exported_to": "carved/png/0000000000060000_89.png"
+    },
+    {
+      "offset": 458752,
+      "length": 232,
+      "type": "pdf",
+      "subtype": "pdf-1.5",
+      "confidence": "medium",
+      "sha256": "2bad1fd48b5daee0afde35e7cd8a0e8ccbd368cb596721c82bc0947306895470",
+      "exported_to": "carved/pdf/0000000000070000_232.pdf"
+    },
+    {
+      "offset": 524288,
+      "length": 430,
+      "type": "zip",
+      "subtype": "zip",
+      "confidence": "high",
+      "sha256": "71f7ac9072e0b34030a41b2a669637fb5aadf45173db458e95203de3b4f71494",
+      "exported_to": "carved/zip/0000000000080000_430.zip"
+    },
+    {
+      "offset": 589824,
+      "length": 492,
+      "type": "jpeg",
+      "subtype": "jfif",
+      "confidence": "high",
+      "sha256": "efd9f93f24b73c96d1ad8692ff93fbdfdc06dec09bb71d052cdb3456ce702510",
+      "exported_to": "carved/jpeg/0000000000090000_492.jpg"
+    },
+    {
+      "offset": 655360,
+      "length": 70,
+      "type": "png",
+      "subtype": "",
+      "confidence": "medium",
+      "sha256": "46d133b33363ec7b7f858e5cc9d24e2bcec0d8161fd8aec85ecf8bee91aa1ff3",
+      "exported_to": "carved/png/00000000000a0000_70.png"
+    },
+    {
+      "offset": 720896,
+      "length": 412,
+      "type": "pdf",
+      "subtype": "pdf-1.4",
+      "confidence": "high",
+      "sha256": "64e22824c0803890c46faaf6825b7865be498b9b5f9849c98ae40a4f68ad4b44",
+      "exported_to": "carved/pdf/00000000000b0000_412.pdf"
+    },
+    {
+      "offset": 786432,
+      "length": 1020,
+      "type": "zip",
+      "subtype": "zip",
+      "confidence": "high",
+      "sha256": "2b23d9401fd8517ddf42e6b023312bc5933d248a9024a8a5cf3301ab2914875f",
+      "exported_to": "carved/zip/00000000000c0000_1020.zip"
+    }
+  ],
+  "android": null,
+  "statistics": {
+    "deleted_entries_found": 0,
+    "exported": 12,
+    "carve_hits": 12,
+    "duplicates_skipped": 0,
+    "ads_ignored": 0
+  },
+  "warnings": [
+    "no supported filesystem detected; carving the whole source"
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "tool": "openrecover",
+  "version": "1.4.0",
+  "source": {
+    "description": "ext4_basic.img",
+    "container": "",
+    "size_bytes": 262144,
+    "sector_size": 512,
+    "shared_write_fallback": false,
+    "bad_sectors": []
+  },
+  "partitions": [
+    {
+      "index": 0,
+      "scheme": "superfloppy",
+      "start": 0,
+      "length": 262144,
+      "fs": "ext4"
+    }
+  ],
+  "files": [
+    {
+      "id": 1,
+      "origin": "filesystem_metadata",
+      "path": "inode-21",
+      "size": 23,
+      "confidence": "high",
+      "flags": [
+        "PathUncertain"
+      ],
+      "mtime": 1700000450,
+      "deleted": 1700000750,
+      "extents": [],
+      "sha256": "555ff62ea02ac3f37406008f1fefd19141151d32fb437613169eadafb845fdf2",
+      "exported_to": "files/inode-21",
+      "type": "",
+      "note": "no_deleted_entry_with_this_timestamp"
+    },
+    {
+      "id": 2,
+      "origin": "filesystem_metadata",
+      "path": "inode-25",
+      "size": 1024,
+      "confidence": "high",
+      "flags": [
+        "PathUncertain",
+        "Unsupported"
+      ],
+      "mtime": 1700000490,
+      "deleted": 1700000950,
+      "extents": [],
+      "sha256": "",
+      "exported_to": "",
+      "type": "",
+      "note": "no_deleted_entry_with_this_timestamp; encrypted_content"
+    },
+    {
+      "id": 3,
+      "origin": "filesystem_metadata",
+      "path": "inode-26",
+      "size": 2048,
+      "confidence": "high",
+      "flags": [
+        "PathUncertain"
+      ],
+      "mtime": 1700000495,
+      "deleted": 1700001000,
+      "extents": [
+        {
+          "offset": 0,
+          "length": 2048,
+          "sparse": true
+        }
+      ],
+      "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+      "exported_to": "files/inode-26",
+      "type": "",
+      "note": "no_deleted_entry_with_this_timestamp; contains_holes_or_unwritten_extents"
+    },
+    {
+      "id": 4,
+      "origin": "filesystem_metadata",
+      "path": "secret.txt",
+      "size": 1500,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1700000400,
+      "deleted": 1700000500,
+      "extents": [
+        {
+          "offset": 22528,
+          "length": 1500,
+          "sparse": false
+        }
+      ],
+      "sha256": "0aef93a6e2931b091979c25b29e662ea881388b77a384d0502e9af0ac4c64f10",
+      "exported_to": "files/secret.txt",
+      "type": "txt",
+      "note": ""
+    },
+    {
+      "id": 5,
+      "origin": "filesystem_metadata",
+      "path": "subdir/photo.jpg",
+      "size": 2500,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1700000410,
+      "deleted": 1700000550,
+      "extents": [
+        {
+          "offset": 30720,
+          "length": 2500,
+          "sparse": false
+        }
+      ],
+      "sha256": "10d6cc6cc28e709a4867f40c05cb9b2e67f4c16fcdcf0ad73ee2499e8edad16a",
+      "exported_to": "files/subdir/photo.jpg",
+      "type": "jpeg",
+      "note": ""
+    },
+    {
+      "id": 6,
+      "origin": "filesystem_metadata",
+      "path": "inode-17",
+      "size": 1024,
+      "confidence": "high",
+      "flags": [
+        "PathUncertain"
+      ],
+      "mtime": 1700000420,
+      "deleted": 1700000600,
+      "extents": [
+        {
+          "offset": 40960,
+          "length": 1024,
+          "sparse": false
+        }
+      ],
+      "sha256": "aee1ea9541accd231c27b5680a91487e1707ffaa9778832823a7998a0fadfa14",
+      "exported_to": "files/inode-17",
+      "type": "",
+      "note": "ambiguous_name_at_deletion_time"
+    },
+    {
+      "id": 7,
+      "origin": "filesystem_metadata",
+      "path": "inode-18",
+      "size": 1024,
+      "confidence": "high",
+      "flags": [
+        "PathUncertain"
+      ],
+      "mtime": 1700000420,
+      "deleted": 1700000600,
+      "extents": [
+        {
+          "offset": 43008,
+          "length": 1024,
+          "sparse": false
+        }
+      ],
+      "sha256": "240ae70a9fcd87318ebe1c9c84a6fd81d1e0e64f762e9844e1f3f2eadab7e462",
+      "exported_to": "files/inode-18",
+      "type": "",
+      "note": "ambiguous_name_at_deletion_time"
+    },
+    {
+      "id": 8,
+      "origin": "filesystem_metadata",
+      "path": "inode-20",
+      "size": 2048,
+      "confidence": "low",
+      "flags": [
+        "PathUncertain",
+        "ClustersReallocated"
+      ],
+      "mtime": 1700000440,
+      "deleted": 1700000700,
+      "extents": [
+        {
+          "offset": 143360,
+          "length": 2048,
+          "sparse": false
+        }
+      ],
+      "sha256": "dc9cd49efd2b739121588a1dd12804ee586e60043ba105e925bb860d1ab4991d",
+      "exported_to": "files/inode-20",
+      "type": "",
+      "note": "no_deleted_entry_with_this_timestamp; data_blocks_reused_or_outside_volume"
+    },
+    {
+      "id": 9,
+      "origin": "filesystem_metadata",
+      "path": "inode-22",
+      "size": 8192,
+      "confidence": "high",
+      "flags": [
+        "PathUncertain"
+      ],
+      "mtime": 1700000460,
+      "deleted": 1700000800,
+      "extents": [
+        {
+          "offset": 153600,
+          "length": 2048,
+          "sparse": false
+        },
+        {
+          "offset": 0,
+          "length": 6144,
+          "sparse": true
+        }
+      ],
+      "sha256": "fcd7d33f506e6b6515654fe9d2c33b285ca8b386f0cd39ef8c516724ac9bbda5",
+      "exported_to": "files/inode-22",
+      "type": "",
+      "note": "no_deleted_entry_with_this_timestamp; contains_holes_or_unwritten_extents"
+    },
+    {
+      "id": 10,
+      "origin": "filesystem_metadata",
+      "path": "inode-23",
+      "size": 16384,
+      "confidence": "high",
+      "flags": [
+        "PathUncertain"
+      ],
+      "mtime": 1700000470,
+      "deleted": 1700000850,
+      "extents": [
+        {
+          "offset": 163840,
+          "length": 1024,
+          "sparse": false
+        },
+        {
+          "offset": 0,
+          "length": 1024,
+          "sparse": true
+        },
+        {
+          "offset": 164864,
+          "length": 1024,
+          "sparse": false
+        },
+        {
+          "offset": 0,
+          "length": 1024,
+          "sparse": true
+        },
+        {
+          "offset": 165888,
+          "length": 1024,
+          "sparse": false
+        },
+        {
+          "offset": 0,
+          "length": 7168,
+          "sparse": true
+        },
+        {
+          "offset": 174080,
+          "length": 1024,
+          "sparse": false
+        },
+        {
+          "offset": 0,
+          "length": 1024,
+          "sparse": true
+        },
+        {
+          "offset": 175104,
+          "length": 1024,
+          "sparse": false
+        },
+        {
+          "offset": 0,
+          "length": 1024,
+          "sparse": true
+        }
+      ],
+      "sha256": "7f3abdb6fb69b9047ffffdfb4d2e0e2c82e4952eae18474fbdef070ebd66071e",
+      "exported_to": "files/inode-23",
+      "type": "",
+      "note": "no_deleted_entry_with_this_timestamp; contains_holes_or_unwritten_extents"
+    },
+    {
+      "id": 11,
+      "origin": "filesystem_metadata",
+      "path": "inode-24",
+      "size": 1024,
+      "confidence": "medium",
+      "flags": [
+        "PathUncertain"
+      ],
+      "mtime": 1700000480,
+      "deleted": 1700000900,
+      "extents": [
+        {
+          "offset": 184320,
+          "length": 1024,
+          "sparse": false
+        }
+      ],
+      "sha256": "fa45708b85a6ff6f6f55f0f7c5c5214c4a0b5c25e2a599e338f49bcb827b2655",
+      "exported_to": "files/inode-24",
+      "type": "",
+      "note": "no_deleted_entry_with_this_timestamp; inode_checksum_mismatch"
+    }
+  ],
+  "carved": [],
+  "android": null,
+  "statistics": {
+    "deleted_entries_found": 11,
+    "exported": 10,
+    "carve_hits": 0,
+    "duplicates_skipped": 0,
+    "ads_ignored": 0
+  },
+  "warnings": [
+    "skipping unsupported content: inode-25"
+  ]
+}

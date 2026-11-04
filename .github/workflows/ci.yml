@@ -1,0 +1,118 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  windows:
+    name: Windows / MSVC release
+    runs-on: windows-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+
+      - name: Configure
+        run: cmake --preset win-msvc-release
+
+      - name: Build
+        run: cmake --build --preset win-msvc-release
+
+      - name: Read-only static check
+        run: |
+          python tools/check_readonly.py
+          python tools/check_readonly.py --selftest
+
+      - name: Tests
+        run: ctest --preset win-msvc-release -L "M[0-5]" --output-on-failure
+
+      - name: Package
+        run: cmake --build --preset win-msvc-release --target package
+
+  linux:
+    name: Linux / ${{ matrix.preset }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        preset:
+          - linux-clang-debug
+          - linux-gcc-release
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends ninja-build clang gcc g++ strace python3
+
+      - name: Configure
+        run: cmake --preset ${{ matrix.preset }}
+
+      - name: Build
+        run: cmake --build --preset ${{ matrix.preset }}
+
+      - name: Read-only static check
+        run: |
+          python3 tools/check_readonly.py
+          python3 tools/check_readonly.py --selftest
+
+      - name: Tests
+        run: ctest --preset ${{ matrix.preset }} -L "M[0-5]" --output-on-failure
+
+      - name: Package
+        run: cmake --build --preset ${{ matrix.preset }} --target package
+
+  fuzz:
+    name: Linux / clang libFuzzer smoke
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends ninja-build clang
+
+      - name: Configure
+        run: >
+          cmake -S . -B build/fuzz -G Ninja
+          -DCMAKE_BUILD_TYPE=RelWithDebInfo
+          -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+          -DOPENRECOVER_BUILD_TESTS=OFF
+          -DOPENRECOVER_BUILD_FUZZ=ON
+
+      - name: Build fuzz targets
+        run: cmake --build build/fuzz --parallel 2
+
+      - name: Fuzz smoke (60 s per target)
+        run: |
+          set -euo pipefail
+          for target in fat32_boot fat32_dir ext4_super ext4_dir ext4_inode \
+                        ntfs_record ntfs_runlist lznt1 recycle_info \
+                        sig_jpeg sig_png sig_pdf sig_zip sig_gif sig_bmp \
+                        sig_tiff sig_wav sig_mp4 sig_avi sig_mp3 sig_cfb sig_sqlite gpt vhd vhdx; do
+            echo "== fuzz_${target}"
+            "build/fuzz/fuzz/fuzz_${target}" \
+              -max_total_time=60 -max_len=131072 -rss_limit_mb=2048 \
+              -print_final_stats=1 \
+              "tests/fixtures/fuzz/${target}"
+          done

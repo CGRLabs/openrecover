@@ -1,0 +1,215 @@
+{
+  "tool": "openrecover",
+  "version": "1.4.0",
+  "source": {
+    "description": "fat32_vhdx_full.img",
+    "container": "vhdx",
+    "size_bytes": 8388608,
+    "sector_size": 512,
+    "shared_write_fallback": false,
+    "bad_sectors": []
+  },
+  "partitions": [
+    {
+      "index": 0,
+      "scheme": "superfloppy",
+      "start": 0,
+      "length": 8388608,
+      "fs": "fat32"
+    }
+  ],
+  "files": [
+    {
+      "id": 1,
+      "origin": "filesystem_metadata",
+      "path": "_mpty.txt",
+      "size": 0,
+      "confidence": "high",
+      "flags": [
+        "NameFirstCharGuessed"
+      ],
+      "mtime": 1709618828,
+      "extents": [],
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported_to": "files/_mpty.txt",
+      "type": "txt",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc"
+    },
+    {
+      "id": 2,
+      "origin": "filesystem_metadata",
+      "path": "_lain.txt",
+      "size": 3000,
+      "confidence": "high",
+      "flags": [
+        "NameFirstCharGuessed"
+      ],
+      "mtime": 1709618828,
+      "extents": [
+        {
+          "offset": 73728,
+          "length": 3000,
+          "sparse": false
+        }
+      ],
+      "sha256": "06a4a5614ee4617664b127f3929031477f6bf93b5c04b5b25036bc775ba863b9",
+      "exported_to": "files/_lain.txt",
+      "type": "txt",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc"
+    },
+    {
+      "id": 3,
+      "origin": "filesystem_metadata",
+      "path": "_otes.txt",
+      "size": 10,
+      "confidence": "high",
+      "flags": [
+        "NameFirstCharGuessed"
+      ],
+      "mtime": 1709618828,
+      "extents": [
+        {
+          "offset": 77824,
+          "length": 10,
+          "sparse": false
+        }
+      ],
+      "sha256": "72305a2838712a81534a32feaf72c730f1168f23c98d7b949ad909b889bcea19",
+      "exported_to": "files/_otes.txt",
+      "type": "txt",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc"
+    },
+    {
+      "id": 4,
+      "origin": "filesystem_metadata",
+      "path": "DOCS/Quarterly report 2024.txt",
+      "size": 5000,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1709618828,
+      "extents": [
+        {
+          "offset": 79872,
+          "length": 5000,
+          "sparse": false
+        }
+      ],
+      "sha256": "8bc08579f411ef472f880ab30075f2ec7161c240d62842abac35af1e0cbda654",
+      "exported_to": "files/DOCS/Quarterly report 2024.txt",
+      "type": "txt",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc"
+    },
+    {
+      "id": 5,
+      "origin": "filesystem_metadata",
+      "path": "DOCS/Ünïcødé résumé.pdf",
+      "size": 1200,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1709618828,
+      "extents": [
+        {
+          "offset": 86016,
+          "length": 1200,
+          "sparse": false
+        }
+      ],
+      "sha256": "14e6707a5ee137e87dc68a1ccb73cf453b961973e450f4e3eaf5f3af766b583a",
+      "exported_to": "files/DOCS/Ünïcødé résumé.pdf",
+      "type": "pdf",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc"
+    },
+    {
+      "id": 6,
+      "origin": "filesystem_metadata",
+      "path": "PICS/2024/summer holiday photo.jpg",
+      "size": 446,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1709618828,
+      "extents": [
+        {
+          "offset": 88064,
+          "length": 446,
+          "sparse": false
+        }
+      ],
+      "sha256": "07c637dc412db0b3b73283bc20f4f9a7b3b98a5b48146113f78059c1835a10ed",
+      "exported_to": "files/PICS/2024/summer holiday photo.jpg",
+      "type": "jpeg",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc"
+    },
+    {
+      "id": 7,
+      "origin": "filesystem_metadata",
+      "path": "PICS/2024/_ata.csv",
+      "size": 100,
+      "confidence": "high",
+      "flags": [
+        "NameFirstCharGuessed"
+      ],
+      "mtime": 1709618828,
+      "extents": [
+        {
+          "offset": 96256,
+          "length": 100,
+          "sparse": false
+        }
+      ],
+      "sha256": "9971acb2b047e1f1f6d4b9923074a46fa6a70892bd62d304bcd30368a804467c",
+      "exported_to": "files/PICS/2024/_ata.csv",
+      "type": "csv",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc"
+    },
+    {
+      "id": 8,
+      "origin": "filesystem_metadata",
+      "path": "Old Stuff/inner one.bin",
+      "size": 2048,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1709618828,
+      "extents": [
+        {
+          "offset": 98304,
+          "length": 2048,
+          "sparse": false
+        }
+      ],
+      "sha256": "c0490f78af42920220544e0be126683cbd5ecd83442fbfaa2f341efc86078d3f",
+      "exported_to": "files/Old Stuff/inner one.bin",
+      "type": "bin",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc"
+    },
+    {
+      "id": 9,
+      "origin": "filesystem_metadata",
+      "path": "Old Stuff/inner two.bin",
+      "size": 700,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1709618828,
+      "extents": [
+        {
+          "offset": 100352,
+          "length": 700,
+          "sparse": false
+        }
+      ],
+      "sha256": "cbed719dfebe017e7d4e3ef1c5a54d1d1935518ec0094c94348c64cf026c3653",
+      "exported_to": "files/Old Stuff/inner two.bin",
+      "type": "bin",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc"
+    }
+  ],
+  "carved": [],
+  "android": null,
+  "statistics": {
+    "deleted_entries_found": 9,
+    "exported": 9,
+    "carve_hits": 0,
+    "duplicates_skipped": 0,
+    "ads_ignored": 0
+  },
+  "warnings": []
+}

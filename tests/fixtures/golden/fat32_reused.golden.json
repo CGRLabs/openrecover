@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "atime_unix": 1717718400,
+      "confidence": "low",
+      "ctime_unix": 1672628646,
+      "extents": [
+        {
+          "length_bytes": 4096,
+          "offset_bytes": 59392,
+          "sparse": false
+        }
+      ],
+      "flags": [
+        "ClustersReallocated"
+      ],
+      "mtime_unix": 1709618828,
+      "name": "Reused report.docx",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc",
+      "origin": "filesystem_metadata",
+      "path": "Reused report.docx",
+      "size_bytes": 4096
+    },
+    {
+      "atime_unix": 1717718400,
+      "confidence": "high",
+      "ctime_unix": 1672628646,
+      "extents": [
+        {
+          "length_bytes": 100,
+          "offset_bytes": 63488,
+          "sparse": false
+        }
+      ],
+      "flags": [
+        "NameFirstCharGuessed"
+      ],
+      "mtime_unix": 1709618828,
+      "name": "_eep.txt",
+      "note": "contiguous_assumption; fat_local_time_assumed_utc",
+      "origin": "filesystem_metadata",
+      "path": "_eep.txt",
+      "size_bytes": 100
+    }
+  ],
+  "hashes": {
+    "_eep.txt": "3c0deb4ecdee8bb4f2e9a10672900e078436aeb3a542720c59dabb14592cd025"
+  },
+  "image": "fat32_reused.img",
+  "image_sha256": "ccdf86bf48cd7f79f15fd3fdb01ef295ef4dd63a6449036054ae794882992c34",
+  "volume_bytes": 8388608
+}

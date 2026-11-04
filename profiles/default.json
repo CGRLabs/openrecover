@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "name": "default",
+  "roots": [
+    {"id": "thumbnails",      "path": "/sdcard/DCIM/.thumbnails",       "kind": "thumbnail", "recursive": true},
+    {"id": "thumbnails_pics", "path": "/sdcard/Pictures/.thumbnails",   "kind": "thumbnail", "recursive": true},
+    {"id": "trashed_media",   "path": "/sdcard",                        "kind": "trash",     "recursive": true,
+     "name_regex": "^\\.trashed-[0-9]+-.+", "max_depth": 6},
+    {"id": "app_media_cache", "path": "/sdcard/Android/data",           "kind": "cache",     "recursive": true,
+     "dir_regex": "(^|/)cache(/|$)", "max_depth": 6, "optional": true}
+  ],
+  "type_filter": ["jpg", "jpeg", "png", "webp", "gif", "bmp", "mp4", "pdf", "zip", "docx", "xlsx", "pptx", "txt"],
+  "max_file_size": 2147483648
+}

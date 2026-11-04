@@ -1,0 +1,46 @@
+{
+  "chained": {
+    "confidence": "low",
+    "fragments": 3,
+    "length": 3770,
+    "offset": 327680,
+    "pieces": [
+      {
+        "length": 1267,
+        "offset": 327680
+      },
+      {
+        "length": 1248,
+        "offset": 329216
+      },
+      {
+        "length": 1255,
+        "offset": 330752
+      }
+    ],
+    "sha256": "5e85b29743edf4339cb3b1033d886eb8be94d43436c0f8c90c18049aa440e532",
+    "type": "gif"
+  },
+  "image": "carve_fragmented_gif.img",
+  "image_sha256": "a4ec4c8de0343458cb9a5a97b0bd3d544d5b97cd735c820b31e6a249b70d0eab",
+  "joined": {
+    "confidence": "low",
+    "fragments": 2,
+    "length": 3770,
+    "offset": 65536,
+    "prefix_length": 1267,
+    "sha256": "5e85b29743edf4339cb3b1033d886eb8be94d43436c0f8c90c18049aa440e532",
+    "tail_length": 2503,
+    "tail_offset": 67072,
+    "type": "gif"
+  },
+  "orphan": {
+    "confidence": "low",
+    "fragments": 0,
+    "length": 1267,
+    "offset": 196608,
+    "type": "gif"
+  },
+  "seed": "openrecover-carve-mixed-v1:fragmented-gif",
+  "size_bytes": 1048576
+}

@@ -1,0 +1,219 @@
+{
+  "decoys": [
+    {
+      "kind": "magic_only_garbage",
+      "length": 96,
+      "offset": 851968,
+      "type": "jpeg"
+    },
+    {
+      "kind": "corrupted_crc",
+      "length": 70,
+      "offset": 917504,
+      "type": "png"
+    },
+    {
+      "kind": "magic_only_garbage",
+      "length": 381,
+      "offset": 983040,
+      "type": "pdf"
+    },
+    {
+      "kind": "magic_only_garbage",
+      "length": 31,
+      "offset": 1048576,
+      "type": "zip"
+    },
+    {
+      "kind": "truncated",
+      "length": 130,
+      "offset": 1114112,
+      "type": "jpeg"
+    },
+    {
+      "kind": "truncated",
+      "length": 33,
+      "offset": 1179648,
+      "type": "png"
+    }
+  ],
+  "hits": [
+    {
+      "confidence": "high",
+      "length": 446,
+      "offset": 65536,
+      "type": "jpeg"
+    },
+    {
+      "confidence": "medium",
+      "length": 70,
+      "offset": 131072,
+      "type": "png"
+    },
+    {
+      "confidence": "high",
+      "length": 335,
+      "offset": 196608,
+      "type": "pdf"
+    },
+    {
+      "confidence": "high",
+      "length": 1628,
+      "offset": 262144,
+      "type": "zip"
+    },
+    {
+      "confidence": "high",
+      "length": 470,
+      "offset": 327680,
+      "type": "jpeg"
+    },
+    {
+      "confidence": "medium",
+      "length": 89,
+      "offset": 393216,
+      "type": "png"
+    },
+    {
+      "confidence": "medium",
+      "length": 232,
+      "offset": 458752,
+      "type": "pdf"
+    },
+    {
+      "confidence": "high",
+      "length": 430,
+      "offset": 524288,
+      "type": "zip"
+    },
+    {
+      "confidence": "high",
+      "length": 492,
+      "offset": 589824,
+      "type": "jpeg"
+    },
+    {
+      "confidence": "medium",
+      "length": 70,
+      "offset": 655360,
+      "type": "png"
+    },
+    {
+      "confidence": "high",
+      "length": 412,
+      "offset": 720896,
+      "type": "pdf"
+    },
+    {
+      "confidence": "high",
+      "length": 1020,
+      "offset": 786432,
+      "type": "zip"
+    }
+  ],
+  "image": "carve_mixed.img",
+  "image_sha256": "70f190f404be7ced083482ee3fa2b3665402b588450f5f5d923236ddd2527b2d",
+  "nested": {
+    "confidence": "high",
+    "container_offset": 262144,
+    "length": 566,
+    "offset": 262656,
+    "type": "jpeg"
+  },
+  "scope": {
+    "allocated_clusters": [
+      3,
+      6,
+      9,
+      12
+    ],
+    "anchor_offset": 65536,
+    "cluster_count": 257,
+    "cluster_size": 65536,
+    "excluded_offsets": [
+      131072,
+      327680,
+      524288,
+      720896
+    ]
+  },
+  "seed": "openrecover-carve-mixed-v1",
+  "size_bytes": 16777216,
+  "unaligned_hits": [
+    {
+      "confidence": "high",
+      "length": 446,
+      "offset": 65553,
+      "type": "jpeg"
+    },
+    {
+      "confidence": "medium",
+      "length": 70,
+      "offset": 131089,
+      "type": "png"
+    },
+    {
+      "confidence": "high",
+      "length": 335,
+      "offset": 196625,
+      "type": "pdf"
+    },
+    {
+      "confidence": "high",
+      "length": 1628,
+      "offset": 262161,
+      "type": "zip"
+    },
+    {
+      "confidence": "high",
+      "length": 470,
+      "offset": 327697,
+      "type": "jpeg"
+    },
+    {
+      "confidence": "medium",
+      "length": 89,
+      "offset": 393233,
+      "type": "png"
+    },
+    {
+      "confidence": "medium",
+      "length": 232,
+      "offset": 458769,
+      "type": "pdf"
+    },
+    {
+      "confidence": "high",
+      "length": 430,
+      "offset": 524305,
+      "type": "zip"
+    },
+    {
+      "confidence": "high",
+      "length": 492,
+      "offset": 589841,
+      "type": "jpeg"
+    },
+    {
+      "confidence": "medium",
+      "length": 70,
+      "offset": 655377,
+      "type": "png"
+    },
+    {
+      "confidence": "high",
+      "length": 412,
+      "offset": 720913,
+      "type": "pdf"
+    },
+    {
+      "confidence": "high",
+      "length": 1020,
+      "offset": 786449,
+      "type": "zip"
+    }
+  ],
+  "unaligned_image": "carve_mixed_unaligned.img",
+  "unaligned_image_sha256": "5c08daf5369104d6ce4656aab2316f68fec4b3543089b0e42166fdc752d1c8d4",
+  "unaligned_shift": 17
+}

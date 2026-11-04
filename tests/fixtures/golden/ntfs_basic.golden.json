@@ -1,0 +1,212 @@
+{
+  "files": [
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [
+        {
+          "length_bytes": 10000,
+          "offset_bytes": 1638400,
+          "sparse": false
+        }
+      ],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "contiguous.bin",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "DOCS/contiguous.bin",
+      "size_bytes": 10000
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "shared deleted.txt",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "DOCS/shared deleted.txt",
+      "size_bytes": 500
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "size_bytes": 100
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "deep.txt",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "TRASH/OLD/deep.txt",
+      "size_bytes": 150
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "trash.txt",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "TRASH/trash.txt",
+      "size_bytes": 200
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [
+        "PathUncertain"
+      ],
+      "mtime_unix": 1704067300,
+      "name": "orphan.bin",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "__orphans__/orphan.bin",
+      "size_bytes": 64
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [
+        {
+          "length_bytes": 4096,
+          "offset_bytes": 2048000,
+          "sparse": false
+        },
+        {
+          "length_bytes": 4096,
+          "offset_bytes": 2056192,
+          "sparse": false
+        },
+        {
+          "length_bytes": 1808,
+          "offset_bytes": 2064384,
+          "sparse": false
+        }
+      ],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "fragmented.bin",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "fragmented.bin",
+      "size_bytes": 10000
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "resident deleted.txt",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "resident deleted.txt",
+      "size_bytes": 300
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "low",
+      "ctime_unix": 1704067200,
+      "extents": [
+        {
+          "length_bytes": 4096,
+          "offset_bytes": 2129920,
+          "sparse": false
+        }
+      ],
+      "flags": [
+        "ClustersReallocated"
+      ],
+      "mtime_unix": 1704067300,
+      "name": "reused.bin",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "reused.bin",
+      "size_bytes": 4096
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [
+        {
+          "length_bytes": 4096,
+          "offset_bytes": 2088960,
+          "sparse": false
+        },
+        {
+          "length_bytes": 4096,
+          "offset_bytes": 0,
+          "sparse": true
+        },
+        {
+          "length_bytes": 4096,
+          "offset_bytes": 2093056,
+          "sparse": false
+        }
+      ],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "sparse.bin",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "sparse.bin",
+      "size_bytes": 12288
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [
+        "PathUncertain"
+      ],
+      "mtime_unix": 1704067300,
+      "name": "stale_parent.txt",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "stale_parent.txt",
+      "size_bytes": 80
+    }
+  ],
+  "hashes": {
+    "DOCS/contiguous.bin": "afdefd5f8a6fd6ac61b597a80ffc071b0b1ed05014aa91d46b4e38168a50eb95",
+    "DOCS/shared deleted.txt": "34cd88c14a0e2b339916e0c3f65d378bd097dd1c1753a456c5439b7b0fcfdbb1",
+    "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL": "97443c9847923af268b79a994454b5d627495bae6f7cd21d66b4db4c87c0853a",
+    "TRASH/OLD/deep.txt": "55fbde0225f39ad7845eb4ba4e34407d16a5964613ed3ee6985023a8a364e791",
+    "TRASH/trash.txt": "57c937ca32d79d861fefac3ccd32f9acb4b0cd42206f54bb52ddc4d91c474a02",
+    "__orphans__/orphan.bin": "b9df41478a82899685ec928f92c71eb79d1885b0f3bd5770c4477aca9b85d38c",
+    "fragmented.bin": "d111cc74d10130de37a1da908b98a2d56d90ed39f6e59f124e55ba80f41d7945",
+    "resident deleted.txt": "8ec7a09e00f6d65fbde0ac84d4c176ceebfa85ee95d29cb2d1fed6f065609317",
+    "sparse.bin": "ec3c241a4858801c112f269a828dbcfa6cbf747c412fc59cc506e26779c5ddde",
+    "stale_parent.txt": "cbbab43bb565d4b5118a6bd514d90fcfe23749d55ab708c0dd1792c57800427a"
+  },
+  "image": "ntfs_basic.img",
+  "image_sha256": "8ae61afc659e07b910c51f72addc294ed148fe3f63ed0c7c629c5ddb6c74529d",
+  "volume_bytes": 16777216
+}

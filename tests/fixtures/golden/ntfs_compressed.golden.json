@@ -1,0 +1,81 @@
+{
+  "files": [
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "compressed mixed.bin",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "compressed mixed.bin",
+      "size_bytes": 263344
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "compressed sparse.bin",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "compressed sparse.bin",
+      "size_bytes": 70000
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "low",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [
+        "Unsupported"
+      ],
+      "mtime_unix": 1704067300,
+      "name": "compressed truncated.bin",
+      "note": "ntfs_compressed_corrupt: invalid LZNT1 chunk: the chunk claims 4098 bytes but only 4096 are present",
+      "origin": "filesystem_metadata",
+      "path": "compressed truncated.bin",
+      "size_bytes": 8192
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "low",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [
+        "Unsupported"
+      ],
+      "mtime_unix": 1704067300,
+      "name": "encrypted secret.bin",
+      "note": "ntfs_encrypted",
+      "origin": "filesystem_metadata",
+      "path": "encrypted secret.bin",
+      "size_bytes": 4096
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "plain deleted.txt",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "plain deleted.txt",
+      "size_bytes": 120
+    }
+  ],
+  "hashes": {
+    "compressed mixed.bin": "62adb234f355c8f824078a028eccbbf38dc4c07c2de1c36fa1336e1ea344ea14",
+    "compressed sparse.bin": "f51b279903037b37ea1828a1021499995718d38016cad6c0da30962a41be052f",
+    "plain deleted.txt": "bd7535f73862267e7510d484568a086e212f92ebb5bab6daa8c52961f05bbd5c"
+  },
+  "image": "ntfs_compressed.img",
+  "image_sha256": "c32d2a247e520b8f09329fa22baa27e9f9b2faeca893cdcbb419c1764c8f16d9",
+  "volume_bytes": 16777216
+}

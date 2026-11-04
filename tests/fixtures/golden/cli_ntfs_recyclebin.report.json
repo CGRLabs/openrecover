@@ -1,0 +1,272 @@
+{
+  "tool": "openrecover",
+  "version": "1.4.0",
+  "source": {
+    "description": "ntfs_recyclebin.img",
+    "container": "",
+    "size_bytes": 16777216,
+    "sector_size": 512,
+    "shared_write_fallback": false,
+    "bad_sectors": []
+  },
+  "partitions": [
+    {
+      "index": 0,
+      "scheme": "superfloppy",
+      "start": 0,
+      "length": 16777216,
+      "fs": "ntfs"
+    }
+  ],
+  "files": [
+    {
+      "id": 1,
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Ibroken.txt",
+      "size": 74,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [],
+      "sha256": "9809dadcb6a8e615d84838098dc1aa98ef4420aaa04e9f1f5d98faffbf2df6e5",
+      "exported_to": "files/$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Ibroken.txt",
+      "type": "txt",
+      "note": ""
+    },
+    {
+      "id": 2,
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Iescaped.dll",
+      "size": 98,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [],
+      "sha256": "7b5d3cce70a7ed0ce05b8665baa8d3434e52ffc11538fbf41e86640c2968670c",
+      "exported_to": "files/$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Iescaped.dll",
+      "type": "dll",
+      "note": ""
+    },
+    {
+      "id": 3,
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Inotes.txt",
+      "size": 94,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [],
+      "sha256": "2e4e2abbf94dd9647d945c6c4f0139f03adc9e045ac4a9895fecfdda24cb1c73",
+      "exported_to": "files/$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Inotes.txt",
+      "type": "txt",
+      "note": ""
+    },
+    {
+      "id": 4,
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Iphoto.jpg",
+      "size": 544,
+      "confidence": "medium",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [],
+      "sha256": "770c2662a91f4c2465d1a2d9a856171c445da7c57506712ae52e2a49d8737a42",
+      "exported_to": "files/$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Iphoto.jpg",
+      "type": "jpeg",
+      "note": ""
+    },
+    {
+      "id": 5,
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Ireport.docx",
+      "size": 94,
+      "confidence": "medium",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [],
+      "sha256": "1a99eeb2f4f4f1ba517e2705ca0617df30f549d8e28e68ea234243e91d136da7",
+      "exported_to": "files/$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Ireport.docx",
+      "type": "zip",
+      "note": ""
+    },
+    {
+      "id": 6,
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Iundated.txt",
+      "size": 94,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [],
+      "sha256": "717c3531d836154fcea70d407ad07e3c8a99596d81616924825241b5e1ae92fa",
+      "exported_to": "files/$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Iundated.txt",
+      "type": "txt",
+      "note": ""
+    },
+    {
+      "id": 7,
+      "origin": "filesystem_metadata",
+      "path": "Users/bob/Desktop/undated.txt",
+      "size": 64,
+      "confidence": "high",
+      "flags": [
+        "OriginalPathRestored"
+      ],
+      "mtime": 1704067300,
+      "extents": [],
+      "sha256": "0ef63e913b16f47d57b9c4bb3024a2a2525565ccf8e72205f1da0659ae5d6eab",
+      "exported_to": "files/Users/bob/Desktop/undated.txt",
+      "type": "txt",
+      "note": "original path restored from $Recycle.Bin metadata"
+    },
+    {
+      "id": 8,
+      "origin": "filesystem_metadata",
+      "path": "Users/bob/Pictures/2024/photo.jpg",
+      "size": 300,
+      "confidence": "high",
+      "flags": [
+        "OriginalPathRestored"
+      ],
+      "mtime": 1704067300,
+      "deleted": 1704153600,
+      "extents": [],
+      "sha256": "e6c5e232eb64759adea880f67389aca8dbdb16d61ce13d72bc48ea8ac85fd917",
+      "exported_to": "files/Users/bob/Pictures/2024/photo.jpg",
+      "type": "jpeg",
+      "note": "original path restored from $Recycle.Bin metadata"
+    },
+    {
+      "id": 9,
+      "origin": "filesystem_metadata",
+      "path": "plain deleted.txt",
+      "size": 120,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [],
+      "sha256": "816a42621e63ca1e705f3b8452f13c166e59febe96e28f6042ed65df4366de94",
+      "exported_to": "files/plain deleted.txt",
+      "type": "txt",
+      "note": ""
+    },
+    {
+      "id": 10,
+      "origin": "filesystem_metadata",
+      "path": "Users/bob/Documents/notes.txt",
+      "size": 5000,
+      "confidence": "high",
+      "flags": [
+        "OriginalPathRestored"
+      ],
+      "mtime": 1704067300,
+      "deleted": 1704153600,
+      "extents": [
+        {
+          "offset": 2457600,
+          "length": 5000,
+          "sparse": false
+        }
+      ],
+      "sha256": "530348fe3a543039f218985c238f9069048068c079e94fc572a496bd75636091",
+      "exported_to": "files/Users/bob/Documents/notes.txt",
+      "type": "txt",
+      "note": "original path restored from $Recycle.Bin metadata"
+    },
+    {
+      "id": 11,
+      "origin": "filesystem_metadata",
+      "path": "Users/bob/Desktop/report.docx",
+      "size": 4096,
+      "confidence": "high",
+      "flags": [
+        "PathUncertain",
+        "OriginalPathRestored"
+      ],
+      "mtime": 1704067300,
+      "deleted": 1704153600,
+      "extents": [
+        {
+          "offset": 2498560,
+          "length": 4096,
+          "sparse": false
+        }
+      ],
+      "sha256": "055171325866749bf105735ec7ac4542335abf61d6f7ad7d8e13a8fe134dad7c",
+      "exported_to": "files/Users/bob/Desktop/report.docx",
+      "type": "zip",
+      "note": "original path restored from $Recycle.Bin metadata; $I records 99999 bytes, recovered 4096"
+    },
+    {
+      "id": 12,
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Rorphan.bin",
+      "size": 1024,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [
+        {
+          "offset": 2539520,
+          "length": 1024,
+          "sparse": false
+        }
+      ],
+      "sha256": "29fcaea0d9681229b0503654b2de7d358b9542277aea416a25cf3f2499ca08f5",
+      "exported_to": "files/$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Rorphan.bin",
+      "type": "bin",
+      "note": ""
+    },
+    {
+      "id": 13,
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Rbroken.txt",
+      "size": 2048,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [
+        {
+          "offset": 2580480,
+          "length": 2048,
+          "sparse": false
+        }
+      ],
+      "sha256": "0929fffea8c5ba2f775d0e0eb721f1e5cfdf97aa35fd52d6a45e6c60a239d41f",
+      "exported_to": "files/$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Rbroken.txt",
+      "type": "txt",
+      "note": ""
+    },
+    {
+      "id": 14,
+      "origin": "filesystem_metadata",
+      "path": "$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Rescaped.dll",
+      "size": 512,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1704067300,
+      "deleted": 1704153600,
+      "extents": [
+        {
+          "offset": 2621440,
+          "length": 512,
+          "sparse": false
+        }
+      ],
+      "sha256": "638c80ec67a835cea36939c6120d50030ca14c9ac29129d7e0f98d367a2b4164",
+      "exported_to": "files/$Recycle.Bin/S-1-5-21-1234567890-2345678901-3456789012-1001/$Rescaped.dll",
+      "type": "dll",
+      "note": "deletion time from $Recycle.Bin metadata"
+    }
+  ],
+  "carved": [],
+  "android": null,
+  "statistics": {
+    "deleted_entries_found": 14,
+    "exported": 14,
+    "carve_hits": 0,
+    "duplicates_skipped": 0,
+    "ads_ignored": 0
+  },
+  "warnings": []
+}

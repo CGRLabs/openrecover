@@ -1,0 +1,237 @@
+{
+  "tool": "openrecover",
+  "version": "1.4.0",
+  "source": {
+    "description": "ntfs_basic.img",
+    "container": "",
+    "size_bytes": 16777216,
+    "sector_size": 512,
+    "shared_write_fallback": false,
+    "bad_sectors": []
+  },
+  "partitions": [
+    {
+      "index": 0,
+      "scheme": "superfloppy",
+      "start": 0,
+      "length": 16777216,
+      "fs": "ntfs"
+    }
+  ],
+  "files": [
+    {
+      "id": 1,
+      "origin": "filesystem_metadata",
+      "path": "DOCS/shared deleted.txt",
+      "size": 500,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [],
+      "sha256": "34cd88c14a0e2b339916e0c3f65d378bd097dd1c1753a456c5439b7b0fcfdbb1",
+      "exported_to": "files/DOCS/shared deleted.txt",
+      "type": "txt",
+      "note": ""
+    },
+    {
+      "id": 2,
+      "origin": "filesystem_metadata",
+      "path": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "size": 100,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [],
+      "sha256": "97443c9847923af268b79a994454b5d627495bae6f7cd21d66b4db4c87c0853a",
+      "exported_to": "files/LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "type": "",
+      "note": ""
+    },
+    {
+      "id": 3,
+      "origin": "filesystem_metadata",
+      "path": "TRASH/OLD/deep.txt",
+      "size": 150,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [],
+      "sha256": "55fbde0225f39ad7845eb4ba4e34407d16a5964613ed3ee6985023a8a364e791",
+      "exported_to": "files/TRASH/OLD/deep.txt",
+      "type": "txt",
+      "note": ""
+    },
+    {
+      "id": 4,
+      "origin": "filesystem_metadata",
+      "path": "TRASH/trash.txt",
+      "size": 200,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [],
+      "sha256": "57c937ca32d79d861fefac3ccd32f9acb4b0cd42206f54bb52ddc4d91c474a02",
+      "exported_to": "files/TRASH/trash.txt",
+      "type": "txt",
+      "note": ""
+    },
+    {
+      "id": 5,
+      "origin": "filesystem_metadata",
+      "path": "__orphans__/orphan.bin",
+      "size": 64,
+      "confidence": "high",
+      "flags": [
+        "PathUncertain"
+      ],
+      "mtime": 1704067300,
+      "extents": [],
+      "sha256": "b9df41478a82899685ec928f92c71eb79d1885b0f3bd5770c4477aca9b85d38c",
+      "exported_to": "files/__orphans__/orphan.bin",
+      "type": "bin",
+      "note": ""
+    },
+    {
+      "id": 6,
+      "origin": "filesystem_metadata",
+      "path": "resident deleted.txt",
+      "size": 300,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [],
+      "sha256": "8ec7a09e00f6d65fbde0ac84d4c176ceebfa85ee95d29cb2d1fed6f065609317",
+      "exported_to": "files/resident deleted.txt",
+      "type": "txt",
+      "note": ""
+    },
+    {
+      "id": 7,
+      "origin": "filesystem_metadata",
+      "path": "stale_parent.txt",
+      "size": 80,
+      "confidence": "high",
+      "flags": [
+        "PathUncertain"
+      ],
+      "mtime": 1704067300,
+      "extents": [],
+      "sha256": "cbbab43bb565d4b5118a6bd514d90fcfe23749d55ab708c0dd1792c57800427a",
+      "exported_to": "files/stale_parent.txt",
+      "type": "txt",
+      "note": ""
+    },
+    {
+      "id": 8,
+      "origin": "filesystem_metadata",
+      "path": "DOCS/contiguous.bin",
+      "size": 10000,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [
+        {
+          "offset": 1638400,
+          "length": 10000,
+          "sparse": false
+        }
+      ],
+      "sha256": "afdefd5f8a6fd6ac61b597a80ffc071b0b1ed05014aa91d46b4e38168a50eb95",
+      "exported_to": "files/DOCS/contiguous.bin",
+      "type": "bin",
+      "note": ""
+    },
+    {
+      "id": 9,
+      "origin": "filesystem_metadata",
+      "path": "fragmented.bin",
+      "size": 10000,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [
+        {
+          "offset": 2048000,
+          "length": 4096,
+          "sparse": false
+        },
+        {
+          "offset": 2056192,
+          "length": 4096,
+          "sparse": false
+        },
+        {
+          "offset": 2064384,
+          "length": 1808,
+          "sparse": false
+        }
+      ],
+      "sha256": "d111cc74d10130de37a1da908b98a2d56d90ed39f6e59f124e55ba80f41d7945",
+      "exported_to": "files/fragmented.bin",
+      "type": "bin",
+      "note": ""
+    },
+    {
+      "id": 10,
+      "origin": "filesystem_metadata",
+      "path": "sparse.bin",
+      "size": 12288,
+      "confidence": "high",
+      "flags": [],
+      "mtime": 1704067300,
+      "extents": [
+        {
+          "offset": 2088960,
+          "length": 4096,
+          "sparse": false
+        },
+        {
+          "offset": 0,
+          "length": 4096,
+          "sparse": true
+        },
+        {
+          "offset": 2093056,
+          "length": 4096,
+          "sparse": false
+        }
+      ],
+      "sha256": "ec3c241a4858801c112f269a828dbcfa6cbf747c412fc59cc506e26779c5ddde",
+      "exported_to": "files/sparse.bin",
+      "type": "bin",
+      "note": ""
+    },
+    {
+      "id": 11,
+      "origin": "filesystem_metadata",
+      "path": "reused.bin",
+      "size": 4096,
+      "confidence": "low",
+      "flags": [
+        "ClustersReallocated"
+      ],
+      "mtime": 1704067300,
+      "extents": [
+        {
+          "offset": 2129920,
+          "length": 4096,
+          "sparse": false
+        }
+      ],
+      "sha256": "919c9befea8751f4ee6f528e329585b9d82a92f94ed764cdb9e8d2f724569a3d",
+      "exported_to": "files/reused.bin",
+      "type": "bin",
+      "note": ""
+    }
+  ],
+  "carved": [],
+  "android": null,
+  "statistics": {
+    "deleted_entries_found": 11,
+    "exported": 11,
+    "carve_hits": 0,
+    "duplicates_skipped": 0,
+    "ads_ignored": 0
+  },
+  "warnings": []
+}

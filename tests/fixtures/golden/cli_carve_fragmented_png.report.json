@@ -1,0 +1,80 @@
+{
+  "tool": "openrecover",
+  "version": "1.4.0",
+  "source": {
+    "description": "carve_fragmented_png.img",
+    "container": "",
+    "size_bytes": 1048576,
+    "sector_size": 512,
+    "shared_write_fallback": false,
+    "bad_sectors": []
+  },
+  "partitions": [],
+  "files": [],
+  "carved": [
+    {
+      "offset": 65536,
+      "length": 6836,
+      "type": "png",
+      "subtype": "",
+      "confidence": "low",
+      "sha256": "fc0fab642185c75669eee5cf096785debeeb19741e547def24a9e982a47761f2",
+      "exported_to": "carved/png/0000000000010000_6836.png",
+      "fragments": 2,
+      "extents": [
+        {
+          "offset": 65536,
+          "length": 3141
+        },
+        {
+          "offset": 70660,
+          "length": 3695
+        }
+      ]
+    },
+    {
+      "offset": 196608,
+      "length": 2105,
+      "type": "png",
+      "subtype": "",
+      "confidence": "low",
+      "sha256": "b3aacb049c2da0db2e7e461f7514200068c5833fa6cd0d94769380e43acca6eb",
+      "exported_to": "carved/png/0000000000030000_2105.png"
+    },
+    {
+      "offset": 327680,
+      "length": 5800,
+      "type": "png",
+      "subtype": "",
+      "confidence": "low",
+      "sha256": "9aada4630f5f041cc7ad4130c88454809e9c5ab20351737a630e1cc77d1995af",
+      "exported_to": "carved/png/0000000000050000_5800.png",
+      "fragments": 3,
+      "extents": [
+        {
+          "offset": 327680,
+          "length": 1069
+        },
+        {
+          "offset": 330756,
+          "length": 3108
+        },
+        {
+          "offset": 335364,
+          "length": 1623
+        }
+      ]
+    }
+  ],
+  "android": null,
+  "statistics": {
+    "deleted_entries_found": 0,
+    "exported": 3,
+    "carve_hits": 3,
+    "duplicates_skipped": 0,
+    "ads_ignored": 0
+  },
+  "warnings": [
+    "no supported filesystem detected; carving the whole source"
+  ]
+}

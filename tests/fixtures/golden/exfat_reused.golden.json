@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "atime_unix": 1717718400,
+      "confidence": "low",
+      "ctime_unix": 1672628646,
+      "extents": [
+        {
+          "length_bytes": 4096,
+          "offset_bytes": 38912,
+          "sparse": false
+        }
+      ],
+      "flags": [
+        "ClustersReallocated"
+      ],
+      "mtime_unix": 1709618828,
+      "name": "Reused report.docx",
+      "note": "exfat_local_time_assumed_utc",
+      "origin": "filesystem_metadata",
+      "path": "Reused report.docx",
+      "size_bytes": 4096
+    },
+    {
+      "atime_unix": 1717718400,
+      "confidence": "high",
+      "ctime_unix": 1672628646,
+      "extents": [
+        {
+          "length_bytes": 100,
+          "offset_bytes": 43008,
+          "sparse": false
+        }
+      ],
+      "flags": [],
+      "mtime_unix": 1709618828,
+      "name": "keep.txt",
+      "note": "exfat_local_time_assumed_utc",
+      "origin": "filesystem_metadata",
+      "path": "keep.txt",
+      "size_bytes": 100
+    }
+  ],
+  "hashes": {
+    "keep.txt": "3c0deb4ecdee8bb4f2e9a10672900e078436aeb3a542720c59dabb14592cd025"
+  },
+  "image": "exfat_reused.img",
+  "image_sha256": "ad5152937ee09aefff78dcfd57385e58d95ac8adc3b1aa02981c95880d28914e",
+  "volume_bytes": 8388608
+}

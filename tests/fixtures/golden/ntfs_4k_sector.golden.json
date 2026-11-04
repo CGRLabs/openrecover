@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [
+        {
+          "length_bytes": 4096,
+          "offset_bytes": 2457600,
+          "sparse": false
+        }
+      ],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "sector4k_data.bin",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "sector4k_data.bin",
+      "size_bytes": 4096
+    },
+    {
+      "atime_unix": 1704067400,
+      "confidence": "high",
+      "ctime_unix": 1704067200,
+      "extents": [],
+      "flags": [],
+      "mtime_unix": 1704067300,
+      "name": "sector4k_resident.txt",
+      "note": "",
+      "origin": "filesystem_metadata",
+      "path": "sector4k_resident.txt",
+      "size_bytes": 200
+    }
+  ],
+  "hashes": {
+    "sector4k_data.bin": "3113228075af91b1a816c5e4f3549f20f2932f217b36bf9410f1c1352d68f88a",
+    "sector4k_resident.txt": "aa542f11fe5cbeeecde61b7eae228c8e789b3236daf85bc9abb08987189abc44"
+  },
+  "image": "ntfs_4k_sector.img",
+  "image_sha256": "ffa08764e9c38bbd0b6e8c52a0209bbc97975cf8d7c2bba9ecc24600dd604bf5",
+  "volume_bytes": 16777216
+}
